@@ -1,0 +1,94 @@
+
+
+
+<ion-content >
+<ion-card class="coverPart ">
+
+<ion-card-header class="main" >
+
+  <ion-row>
+    <ion-col size="6" >
+      <img   src="/assets/img/tabyan.png" alt="">
+    </ion-col>
+ <ion-col size="6" >
+  <h5 >أهلاً بك في تبيان</h5>
+    </ion-col>
+  </ion-row>
+</ion-card-header>
+</ion-card>
+
+  <ion-slides   [options]="slidesOptions">
+
+
+
+
+    <ion-slide  (click)="qize()">
+
+      <ion-grid>
+        <ion-row>
+          <ion-col size="12" class="poster-col">
+            <img class="poster"
+            src="/assets/img/a2.jpg" alt="">
+            <h5  >اختبر معرفتك</h5>
+
+          </ion-col>
+
+        </ion-row>
+      </ion-grid>
+
+
+    </ion-slide>
+
+
+
+    <ion-slide  (click)="search()">
+
+      <ion-grid>
+        <ion-row>
+          <ion-col size="12" class="poster-col">
+            <img class="poster"
+            src="/assets/img/a1.jpg" alt="">
+            <h5 >ابحث في المعجم</h5>
+
+          </ion-col>
+          <ion-col size="12">
+
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+
+    </ion-slide>
+
+    <ion-slide (click)="playWithAI()">
+
+      <ion-grid>
+        <ion-row>
+          <ion-col size="12" class="poster-col">
+            <img class="poster"
+            src="/assets/img/a3.jpg" alt="">
+            <h5  >اللعب مع الذكاء الإصطناعي</h5>
+
+          </ion-col>
+
+        </ion-row>
+      </ion-grid>
+
+
+    </ion-slide>
+  </ion-slides>
+
+
+
+
+
+<div class="score">
+  <ion-icon  name="star"></ion-icon>
+  <ion-label>200</ion-label>
+</div>
+
+
+</ion-content>
+
+
+

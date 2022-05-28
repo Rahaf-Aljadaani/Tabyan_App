@@ -1,0 +1,42 @@
+
+
+<ion-content>
+  <ion-card class="coverPart ">
+  <ion-card-header class="main" >
+
+    <ion-row>
+
+      <ion-col size="6" >
+        <img   src="/assets/img/tabyan.png" alt="">
+      </ion-col>
+   <ion-col size="6" >
+    <ion-icon  (click)="back()"
+    size="large" name="arrow-forward"></ion-icon>
+      </ion-col>
+
+<ion-col size="12">
+        <ion-searchbar [(ngModel)]="searchTerm" (search)="searchEvent()"
+showCancelButton="focus" placeholder="ابحث عن كلمة" ></ion-searchbar>
+
+      </ion-col>
+    </ion-row>
+
+  </ion-card-header>
+
+</ion-card>
+
+
+
+
+<ion-card class="resaltPart"  [hidden]=ishidden>
+  <ion-row>
+    <ion-col size="12">
+      <ion-item  class="answerPart" lines="none">
+    <ion-label class="ion-text-right">{{answer}}</ion-label>
+  </ion-item>
+    </ion-col>
+  </ion-row>
+
+    </ion-card>
+
+</ion-content>

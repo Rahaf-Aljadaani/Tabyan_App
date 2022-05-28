@@ -1,0 +1,55 @@
+ion-slides {
+  height: 100%;
+  --background: none;
+  background: #46255e;
+  background: -webkit-linear-gradient(
+    to right,
+    #46255e,
+    #64456f
+  );
+  background: linear-gradient(to right, #46255e, #64456f);
+
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.swiper-slide {
+  display: block;
+
+}
+.swiper-slide h2 {
+  margin-top: 2.8rem;
+}
+.swiper-slide img {
+  max-height: 80%;
+  max-width: 80%;
+  margin: 60px 0 40px;
+  pointer-events: none;
+
+  border-radius: 50px;
+
+}
+p {
+  padding: 8px;
+  color: #ffffff;
+  font-weight: 200;
+  font-size: 25px;
+  line-height: 1.5;
+  font-family:font1 !important;
+}
+
+h5{
+  padding: 8px;
+  color: #f5b623;
+  font-weight: 600;
+  font-size: 28px;
+  font-family:font1 !important;
+
+}
+
+ion-button{
+  color: #f5b623;
+  font-size: 14px;
+  font-family:font1 !important;
+}
